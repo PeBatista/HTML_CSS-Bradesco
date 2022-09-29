@@ -1,0 +1,127 @@
+body{
+    background-color: tan;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /*CONFIGURANDO BOX MODEL*/
+    margin-top: 100px; /*CIMA*/
+    margin-right: 40px; /*Direita*/
+    margin-bottom: 10px; /*Baixo*/
+    margin-left: 70px; /*Esquerda*/
+}
+
+h1{
+    font-size: 20px;
+    color: maroon;
+    /*Queremos que este titulo(H1), tenha uma organização diferente de cabeçalho, onde usamos top ou left, cima e esquerda*/
+    top:100px;
+    left: 150px;
+}
+
+h2{
+    color: red;
+}
+
+p{
+    font-size: 16px;
+    margin-left: 50px;
+    /*ADICIONANDO BORDA EM TORNO DOS PARÁGRAFOS*/
+    border: 1px solid white;
+    border-radius:2px;
+    text-indent: 5px;
+}
+a{
+    text-decoration: none; /*sublinhado removido*/
+    margin-left: 50px;
+    font-size: 20px;
+}
+a:link{color:green;}
+a:visited{color:blue;}
+a:hover{color:black;}
+a:active{color:yellow;} /*A partir de cada comportamento as cores mudarão*/
+
+ul{
+    list-style-type: square;
+}
+
+.imagem_computer{
+    float: left;
+    width: 100px;
+}
+table, tr, td{
+    border: 1px transparent black;
+}
+
+table{
+    background-color: aliceblue;
+    border-collapse: collapse;
+    width: 100%; /*Implementando a tabela na página inteira*/
+}
+td{
+    padding: 15px;
+}
+.titulo{
+    color: black;
+    background-color: rgb(179, 240, 240);
+}
+
+/*CRIANDO BOX's COM POSICIONAMENTO ABSOLUTOS*/
+
+.box1{
+    position:absolute;
+    background-color: red;
+    top:30px;
+    left:30px;
+    width: 50px;
+    height: 50px;
+}
+
+.box2{
+    position:absolute;
+    background-color: red;
+    top:30px;
+    left:30px;
+    width: 50px;
+    height: 50px;
+}
+.box3{
+    position:absolute;
+    background-color: gray;
+    top:30px;
+    left:30px;
+    width: 50px;
+    height: 50px;
+}
+.box4{
+    position:absolute;
+    background-color: yellow;
+    top:30px;
+    left:30px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    float: left;
+    width: 82px;
+    height: 78px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background: url('menu.png') no-repeat scroll 0 0 transparent;
+}
+
+.menu ul li.Home a{
+    
+}
+
+.ne{
+    color: #00ff00;
+}
